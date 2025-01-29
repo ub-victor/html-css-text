@@ -1,0 +1,193 @@
+body {  
+    background-image: url(img/sun-icon-set-clipart-design-illustration-free-png.webp), url(img/N.jpg);  
+    background-attachment: fixed;  
+    background-repeat: round, no-repeat; /* Adjust as needed */  
+    background-position: center, right; /* Change positions as needed */  
+     
+}
+@font-face {  
+    font-family: 'Kaushan Script';  
+    src: url('kaushanScript-Regular.woff2') format('woff2'),  
+         url('kaushanScript-Regular.woff') format('woff'),  
+         url('kaushanScript-Regular.ttf') format('truetype');  
+}  
+
+ 
+
+
+p {  
+    font-family: 'Kaushan Script', cursive; /* Set font for the whole body */ 
+    font-size: large;  
+}  
+
+h1 {  
+    font-family: 'Kaushan Script', cursive; /* Set font for the whole body */ 
+    font-size: xxx-large;  
+}
+@font-face {
+    font-family: 'alex brush';
+    src: url('AlexBrush-Regular.woff') format('woff');
+}
+
+@font-face {  
+    font-family: 'Alex Brush';  
+    src: url('AlexBrush-Regular.woff2') format('woff2'),  
+         url('AlexBrush-Regular.woff') format('woff'),  
+         url('AlexBrush-Regular.ttf') format('truetype');  
+}  
+
+ .web {  
+        font-family: 'Alex Brush', cursive; /* Cursive as a fallback */  
+ }
+
+@font-face {
+    font-family: myFont;
+    src: url(font/AlexBrush-Regular.ttf);
+}
+div{
+    font-family: myFont;
+}
+
+@font-face{
+    font-family: vicky;
+    src: url(font/AlexBrush-Regular.ttf);
+}
+.p{
+    font-family: vicky;
+}
+
+@font-face {  
+    font-family: 'Alex Brush';  
+    src: url('AlexBrush-Regular.woff2') format('woff2'),  
+         url('AlexBrush-Regular.woff') format('woff'),  
+         url('AlexBrush-Regular.ttf') format('truetype'); 
+}  
+.ma{
+    font-family: 'Alex Brush';
+    font-weight: lighter;
+}
+.web{
+    display: inline-block;
+ border-right: solid 3px black;
+ padding: 5px;
+}
+
+span {
+    font-size: 60px;
+}
+
+.hbd{
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding-right:10px;
+}
+.hbday{
+    width: 700px;
+    right: 10px;
+}
+
+.imageflottante
+{
+float: left;
+}
+.dessous
+{
+clear: both;
+}
+.victoire{
+    opacity: 0.6;
+    float:right;
+}
+
+/*borders , shodow of borders and text and different shodow*/
+.borders{
+    display: inline-flexbox; /* sans valeur */
+}
+
+.border{
+    display: inline-block;
+    border: 3px blue dashed ;
+   
+}
+
+.solid{
+    display: inline-block;
+    border: 3px blue solid;
+    border-left: 3px solid black;
+    border-top-width: 12px;
+    border-top-color:brown;
+}
+
+.dotted{
+    display: inline-block;
+    border: 3px blue dotted;
+}
+
+.dashed{
+    display: inline-block;
+    border: 3px blue dashed;
+}
+
+.double{
+    display: inline-block;
+    border: 3px blue double;
+}
+
+.groove{
+    display: inline-block;
+    border: 3px blue groove;
+}
+
+.ridge{
+    display: inline-block;
+    border: 3px blue ridge;
+    box-shadow: 6px 6px 0px rgb(108, 207, 224) ;
+}
+
+.inset{
+    display: inline-block;
+    border: 3px blue inset;
+    box-shadow: 6px 6px 4px black inset;
+}
+
+.outset{
+    display: inline-block;
+    border: 3px blue outset;
+    border-radius: 10PX;
+    box-shadow: 6px 6px 4px black ;
+}
+/* for text shodow*/
+strong{
+    text-shadow: 4px 4px 2px blue ;
+}
+
+/* Création d'apparences dynamiques */
+
+a /* Liens par défaut (non survolés) */
+{
+display: block;
+text-decoration: none;
+color: red;
+font-style: italic;
+font-size: xx-large;
+}
+a:hover /* Apparence au survol des liens */
+ {
+    color: green;
+    text-decoration: underline;
+    font-style: normal;
+}
+.wow {
+display: inline;
+text-decoration: none;
+color: rgb(17, 12, 48);
+font-style: italic;
+font-size: xx-large;   
+}
+.wow:active { 
+    color: green;
+    text-decoration: underline;
+    font-style: normal;
+    background-color: #df531c;   /* Quand le visiteur clique sur le lien */
+}
