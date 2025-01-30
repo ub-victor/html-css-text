@@ -186,16 +186,26 @@ color: rgb(17, 12, 48);
 font-style: italic;
 font-size: xx-large;   
 }
+
+/* :active styles: visual feedback when the user is interacting with an element (e.g. pressing a button) */  
 .wow:active { 
-    border-radius: green;
+    border-radius: 2px solid green;
     text-decoration: underline;
     font-style: normal;
-    background-color: #df531c;   /* Quand le visiteur clique sur le lien */
+    /* Quand le visiteur clique sur le lien */
 }
 
-.wow:focus /* Quand le visiteur sélectionne le lien */
-{
-background-color: #FFCC66;
+
+/*:focus is about interactivity and shows which element has the user's attention for interaction.
+:selected is about choice and shows which option the user has picked within a specific group of options.*/
+
+.wow:focus /* When the visitor selects the link */  
+{  
+  outline: none; /* Remove default browser outline */  
+  border: 2px solid  yellowgreen;   
+  background-color: rgba(173, 255, 47, 0.1); /* slight color highlight on focus */  
+  box-shadow: 0 0 5px rgba(173, 255, 47, 0.5); /* subtle box shadow */
+  border-radius: 10px; /* rounded corners */  
 }
 
 .wow:visited /* Liens déjà visités */
