@@ -180,14 +180,20 @@ a:hover /* Apparence au survol des liens */
 }
 .wow {
 display: inline;
+text-color: blue;
 text-decoration: none;
 color: rgb(17, 12, 48);
 font-style: italic;
 font-size: xx-large;   
 }
 .wow:active { 
-    color: green;
+    border-radius: green;
     text-decoration: underline;
     font-style: normal;
     background-color: #df531c;   /* Quand le visiteur clique sur le lien */
+}
+
+.wow:focus /* Quand le visiteur sélectionne le lien */
+{
+background-color: #FFCC66;
 }
