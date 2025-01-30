@@ -168,7 +168,7 @@ a /* Liens par défaut (non survolés) */
 {
 display: block;
 text-decoration: none;
-color: red;
+color: black;
 font-style: italic;
 font-size: xx-large;
 }
@@ -197,3 +197,15 @@ font-size: xx-large;
 {
 background-color: #FFCC66;
 }
+
+.wow:visited /* Liens déjà visités */
+{
+color: blue;
+}
+
+/* Differentiate Visited Links: The most common use is to change the color of visited links, 
+making it easy for users to see which pages they've already been to.*/
+
+.visited:visited {
+    color: blue;
+  }
