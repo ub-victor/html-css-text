@@ -20,14 +20,10 @@ section{
 }
 
 .new{
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    color: brown;
-    font-size: x-large;
-    border: 2px solid blue;
+    position: absolute;
+    border: 4px solid blue;
+    right: 0px;
+    bottom: 0px;
+    
 }
 
-.new{
-    position: absolute;
-    left: 0px;
-}
