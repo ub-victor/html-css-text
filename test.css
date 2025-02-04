@@ -35,6 +35,19 @@ section{
     bottom: 0px;
     z-index: 2;
 }
+/* 
+//Le principe est exactement le même que pour le positionnement absolu sauf que, 
+//cette fois, le bloc reste fixe à sa position, même
+//si on descend plus bas dans la page
+
+
+{
+position: fixed;
+right: 0px;
+bottom: 0px;
+}
+
+*/
 
 
 
