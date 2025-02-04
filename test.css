@@ -1,16 +1,14 @@
 nav {
+    float: left;
     display: inline-block;
     width: 150px;
     border: 1px solid black;
     vertical-align: top;
+    margin-right: 4px;
 }
 
 section{
     display: inline-block;
     border: 1px solid blue;
     vertical-align: top;
-}
-
-a{
-    display: block;
 }
