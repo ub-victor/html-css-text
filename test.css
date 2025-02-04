@@ -12,3 +12,22 @@ section{
     border: 1px solid blue;
     vertical-align: top;
 }
+
+.div{
+    width: 900px;
+    height: 900px;
+    background-color: black;
+}
+
+.new{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    font-size: x-large;
+    border: 2px solid blue;
+}
+
+.new{
+    position: absolute;
+    left: 0px;
+}
