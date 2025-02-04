@@ -8,3 +8,7 @@ section{
     margin-left: 170px;
     border: 1px solid blue;
 }
+
+a{
+    display: block;
+}
