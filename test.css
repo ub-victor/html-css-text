@@ -12,3 +12,7 @@ section{
     border: 1px solid blue;
     vertical-align: top;
 }
+nav, section {
+    display: inline;
+    zoom: 1;
+}
