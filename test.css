@@ -20,11 +20,19 @@ section{
     background-color: black;
 }
 
-.new{
+.element1{
     position: absolute;
     border: 4px solid blue;
     right: 0px;
     bottom: 0px;
     
+}
+.element2{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    background-color: blue;
+
 }
 
