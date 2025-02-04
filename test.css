@@ -1,11 +1,11 @@
 nav {
-    float: left;
+    display: inline-block;
     width: 150px;
     border: 1px solid black;
 }
 
 section{
-    margin-left: 170px;
+    display: inline-block;
     border: 1px solid blue;
 }
 
