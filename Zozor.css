@@ -16,13 +16,44 @@
     font-style: normal;
   }
 
-  body{
-    background: url(images/fond_jaune.png);
+  body {
+    background: url("images/fond_jaune.png");
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: #0c090a;
   }
-
+  
   h1,
   h2 {
-    font-family: Dayron;
+    font-family: Dayrom;
     font-weight: normal;
-    font-size: #0c090a;
+    font-size: 1.06rem;
   }
+h1{
+    margin: 0;
+}
+  
+h2 {
+    text-transform: uppercase;
+}
+
+article > h2 { /*This selector targets only the <h2> elements that are direct children of an <article> element.*/
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+/* This selector targets <span> elements that are direct children of <h2> elements within an <article> element.
+  This style will only apply if the <span> is a direct child of an <h2> within an <article>  */
+article > h2 > span {
+    margin-left: 1rem;
+   
+}
+
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+  
