@@ -83,13 +83,13 @@ div.separator{
   height: 3px;
   margin: 0.8rem -0.5rem;
   background: url(images/separateur.png) repeat-x;
-  text-align: center;
+  text-align: center;/*This center the image to go up to the page*/
 }
 
 div.separator-shadow{
   margin: -0.8rem -0.5rem;
-  height: 14px;
-  background: url(images/) repeat-x;
+  height: 25px;
+  background: url(images/facebook.png) repeat-x;
 }
 
 a#red-link{
