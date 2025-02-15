@@ -78,3 +78,9 @@ footer{
     margin-top: 1rem;
     overflow: auto;
 } 
+
+div.separator{
+  height: 3px;
+  margin: 0.8rem -0.5rem;
+  background: url(images/separateur.png) repeat-x;
+}
