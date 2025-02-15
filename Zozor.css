@@ -48,10 +48,11 @@ article > h2 { /*This selector targets only the <h2> elements that are direct ch
   This style will only apply if the <span> is a direct child of an <h2> within an <article>  */
 article > h2 > span {
     margin-left: 1rem;
-   
 }
 
-
+p{
+  text-align: justify;
+}
 
 ul{
     list-style-type: none;
