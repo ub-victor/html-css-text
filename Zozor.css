@@ -69,7 +69,7 @@ section,
 div#article-section, /* Targets the div element with the id article-section */
 footer {
     display: flex; /* Applies flexbox layout to these elements */
-    margin: auto; /* Centers the elements horizontally */
+    margin:auto; /* Centers the elements horizontally */
     padding: 0 1.2rem; /* Adds padding of 1.2rem to the left and right */
     max-width: 68rem; /* Sets the maximum width of these elements to 68rem */
 }
@@ -78,9 +78,22 @@ footer{
     margin-top: 1rem;
     overflow: auto;
 } 
-
+/*reanalyze*/
 div.separator{
   height: 3px;
   margin: 0.8rem -0.5rem;
   background: url(images/separateur.png) repeat-x;
+  text-align: center;
 }
+
+div.separator-shadow{
+  margin: -0.8rem -0.5rem;
+  height: 14px;
+  background: url(images/) repeat-x;
+}
+
+a#red-link{
+  color: #89201d;
+  text-decoration: underline;
+}
+
