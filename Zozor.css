@@ -41,6 +41,7 @@ article > h2 { /*This selector targets only the <h2> elements that are direct ch
   align-items: center;/*this put the img and span at the same level verticaly*/
   /*justify-content: center; /* This centers the content horizontally */
   font-size: 1.3rem;
+  margin: 0;
 }
 
 /* This selector targets <span> elements that are direct children of <h2> elements within an <article> element.
