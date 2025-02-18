@@ -97,3 +97,7 @@ a#red-link{
   text-decoration: underline;
 }
 
+header {
+  display: flex;
+  padding: 0 0.8rem;
+}
