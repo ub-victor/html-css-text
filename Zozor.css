@@ -101,3 +101,10 @@ header {
   display: flex;
   padding: 0 0.8rem;
 }
+
+span#zozor{
+  position: relative;
+  top: 0.6rem;
+  font-family: BallparkWeiner;
+  font-size: 2rem;
+}
