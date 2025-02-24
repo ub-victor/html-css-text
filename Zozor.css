@@ -109,8 +109,13 @@ span#zozor{
   font-size: 2rem;
 }
 
+header > nav {
+  margin-left: auto;
+}
+
 header nav > ul {
   text-transform: uppercase; 
   margin: 0 0.5rem; 
 }
 
+header > nav > ul> 
