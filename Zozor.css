@@ -110,5 +110,6 @@ span#zozor{
 }
 
 hearder nav > ul {
-  text-transform: uppercase;  
+  text-transform: uppercase; 
+  margin: 0 0.5rem; 
 }
