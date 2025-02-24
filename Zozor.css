@@ -109,7 +109,7 @@ span#zozor{
   font-size: 2rem;
 }
 
-header > nav {
+header  nav {
   margin-left: auto;
   align-self: flex-end;
 }
