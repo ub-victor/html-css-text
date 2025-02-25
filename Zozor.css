@@ -150,4 +150,6 @@ section#banner {
 
 section#banner > div {
   position: relative;
+  overflow: hidden;
+  
 }
