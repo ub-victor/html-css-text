@@ -144,5 +144,6 @@ header > nav > ul > li:first-child  a {
 }
 
 section#banner {
-  
+  margin-top: 1.2rem;
+  margin-bottom: 2.2rem;
 }
