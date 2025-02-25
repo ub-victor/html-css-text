@@ -17,6 +17,7 @@
   }
 
   body {
+    margin: 0;
     background: url("images/fond_jaune.png");
     font-family: "Trebuchet MS", Arial, sans-serif;
     color: #0c090a;
