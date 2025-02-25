@@ -135,8 +135,14 @@ header nav > ul > li > a {
 
 /* This selector targets the first <li> element within a <ul> inside a <nav> within a <header>, and applies styles to the <a> element within that <li> */
 header > nav > ul > li:first-child  a {
-  padding-top: 1.2rem;
-  margin-bottom: 2.2rem;
+  /* Adds top margin to the first navigation link 
+  margin-top: 1.2rem; 
+  /* Adds bottom margin to the first navigation link 
+  margin-bottom: 2.2rem; */
+  color: #89201d;
+  border-bottom: 0.12rem solid #89201d;
 }
+
+
 
 
