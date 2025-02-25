@@ -125,5 +125,10 @@ header > nav > ul>{
 
 header nav > ul > li > a {
   display: inline-block;
+  height: 1.28rem;
+  color: #0c090a;
+  text-transform: uppercase;
+  text-decoration: none;
   
+
 }
