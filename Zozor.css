@@ -118,4 +118,6 @@ header nav > ul {
    margin-bottom: 0; 
 }
 
-header > nav > ul> 
+header > nav > ul>{
+  text-transform: uppercase;
+} 
