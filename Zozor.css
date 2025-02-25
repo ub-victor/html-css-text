@@ -148,6 +148,6 @@ section#banner {
   margin-bottom: 2.2rem;
 }
 
-section#banner {
-
+section#banner > div {
+  
 }
