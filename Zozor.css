@@ -132,3 +132,9 @@ header nav > ul > li > a {
   font-weight: normal;
   font-size: 1.08rem;
 }
+
+/* This selector targets the first <li> element within a <ul> inside a <nav> within a <header>, and applies styles to the <a> element within that <li> */
+header > nav > ul > li:first-child a {
+  margin-top: 1.2rem;
+  margin-bottom: 2.2rem; 
+}
