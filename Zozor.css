@@ -151,5 +151,5 @@ section#banner {
 section#banner > div {
   position: relative;
   overflow: hidden;
-  
+  border-radius: 0.4rem;
 }
