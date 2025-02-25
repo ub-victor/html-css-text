@@ -157,3 +157,8 @@ section#banner > div {
   margin: auto;
 }
 
+section#banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
