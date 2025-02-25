@@ -118,7 +118,7 @@ header nav > ul {
    margin-bottom: 0; 
 }
 
-header > nav > ul>{
+header > nav > ul> li{
   text-transform: uppercase;
   margin: 0 0.5rem;
 } 
