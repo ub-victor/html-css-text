@@ -152,5 +152,5 @@ section#banner > div {
   position: relative;
   overflow: hidden;
   border-radius: 0.4rem;
-  box-shadow: 1px 1px ;
+  box-shadow: 1px 1px 5px #303030;
 }
