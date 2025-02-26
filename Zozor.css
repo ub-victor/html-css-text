@@ -205,3 +205,13 @@ article {
   margin-right: 1.8rem;
 }
 
+aside {
+  background-color: #706b64;
+  border-radius: 0.4rem;
+  box-shadow: 1px 1px 5px #303030;
+  color: lightgrey;
+  align-self: flex-start;
+  text-align: center;
+  padding: 0 1rem;
+}
+
