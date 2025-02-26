@@ -220,13 +220,17 @@ aside > p {
 }
 
 aside > ul {
-   
+   display: flex;
+   text-align: center;
+   justify-content: center;
 }
 
 aside > ul > li:not(:last-child){
-  margin-right: 1rem;
-  /* Clears the float on the right side */
-  clear: right;
+  margin-right: 0.3rem;
+}
+
+img#infobulle{
+  position: absolute;
 }
 
 footer {
