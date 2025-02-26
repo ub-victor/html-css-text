@@ -219,6 +219,10 @@ aside > p {
   font-size: 0.8rem;
 }
 
+aside > ul {
+   
+}
+
 aside > ul > li:not(:last-child){
   margin-right: 1rem;
   /* Clears the float on the right side */
