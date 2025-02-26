@@ -157,7 +157,7 @@ section#banner > div {
   margin: auto;
 }
 
-section#banner img {
+section#banner > div > img {
   display: block;
   max-width: 100%;
 }
@@ -173,7 +173,6 @@ div#banner-footer {
   color: white;
   font-size: 0.75rem;
   background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 0.18rem;
 }
 
 div#banner-footer > a {
@@ -224,5 +223,11 @@ aside > ul > li:not(:last-child){
   margin-right: 1rem;
   /* Clears the float on the right side */
   clear: right;
+}
+
+footer {
+  flex-direction: column;
+  align-items: center;
+
 }
 
