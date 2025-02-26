@@ -231,11 +231,7 @@ aside > ul > li:not(:last-child){
 
 img#infobulle{
   position: absolute;
-}
-
-footer {
-  flex-direction: column;
-  align-items: center;
-
+  left: -12px;
+  top: 33%;
 }
 
