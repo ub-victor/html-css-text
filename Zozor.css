@@ -212,6 +212,11 @@ aside {
   color: lightgrey;
   align-self: flex-start;
   text-align: center;
+  width: 100%;
   padding: 0 1rem;
 }
 
+aside > p {
+  font-size: 0.8rem;
+  text-align: center;
+}
