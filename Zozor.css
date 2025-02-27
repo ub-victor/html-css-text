@@ -235,3 +235,10 @@ img#infobulle{
   top: 33%;
 }
 
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+footer > div {
+  
+}
