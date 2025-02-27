@@ -262,3 +262,8 @@ div#amis > ul > li {
   margin-right: 4rem;
 }
 
+div#amis > ul > li > a {
+  color: #89201d;
+  text-decoration: none;
+}
+
