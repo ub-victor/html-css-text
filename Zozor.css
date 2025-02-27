@@ -253,3 +253,6 @@ div#amis {
   font-size: 0.75rem;
 }
 
+div#amis > ul:first-child {
+  
+}
