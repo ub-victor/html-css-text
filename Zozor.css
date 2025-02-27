@@ -254,5 +254,6 @@ div#amis {
 }
 
 div#amis > ul:first-child {
-  
+  margin-right: 4rem;
 }
+
