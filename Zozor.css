@@ -257,3 +257,7 @@ div#amis > ul:first-child {
   margin-right: 4rem;
 }
 
+div#amis > ul > li {
+  display: block;
+  white-space: nowrap;
+}
