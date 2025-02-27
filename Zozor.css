@@ -245,7 +245,7 @@ footer > div {
 
 footer img {
   border: 1px solid #0c090a;
-  box-shadow: 0.5px 0.5px 2.5px 2.5px #303030;
+  box-shadow: 0.5px 0.5px 2.5px #303030;
 }
 
 div#amis {
@@ -259,7 +259,7 @@ div#amis > ul:first-child {
 
 div#amis > ul > li {
   display: block;
-  margin-right: 4rem;
+  white-space: nowrap;
 }
 
 div#amis > ul > li > a {
