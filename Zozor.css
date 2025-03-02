@@ -273,3 +273,5 @@ div#amis > ul > li > a::before {
   margin-right: 0.36rem;  /* Adds space between the icon and the link text */
 }
 
+@media (min-width: 576px) and (max-width: 767.98px){
+}
