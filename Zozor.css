@@ -273,9 +273,13 @@ div#amis > ul > li > a::before {
   margin-right: 0.36rem;  /* Adds space between the icon and the link text */
 }
 
-@media (min-width: 576px) and (max-width: 767.98px){
+/* Media query for devices with a minimum width of 576px and a maximum width of 767.98px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Targets the first <img> element that is a direct child of an <aside> element */
   aside > img:first-of-type {
+    /* Floats the image to the right */
     float: right;
-    margin: 0 1rem,;
+    /* Adds margin to the image: 0 on top and bottom, 1rem on left and right */
+    margin: 0 1rem;
   }
 }
