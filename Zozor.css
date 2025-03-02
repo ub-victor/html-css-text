@@ -267,6 +267,7 @@ div#amis > ul > li > a {
   text-decoration: none;
 }
 
+/* Adds an external link icon before each link in the list within the #amis div */
 div#amis > ul > li > a::before {
   content: url(images/ico_liensexterne.png);
   margin-right: 0.36rem;
