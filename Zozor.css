@@ -284,3 +284,9 @@ div#amis > ul > li > a::before {
   }
 }
 
+@media (max-width: 767.98px){
+  header > nav > ul {
+    
+  }
+}
+
