@@ -276,5 +276,6 @@ div#amis > ul > li > a::before {
 @media (min-width: 576px) and (max-width: 767.98px){
   aside > img:first-of-type {
     float: right;
+    margin: 0 1rem,;
   }
 }
