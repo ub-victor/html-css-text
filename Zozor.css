@@ -290,6 +290,7 @@ div#amis > ul > li > a::before {
   }
 }
 
-section#banner {
-  
+section#banner,
+img#infobulle {
+  display: none;
 }
