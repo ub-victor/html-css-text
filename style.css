@@ -221,5 +221,6 @@ making it easy for users to see which pages they've already been to.*/
   }
 
   .px{
-    border-bottom: 3px 
+    width: 576px;
+    border-bottom: solid 
   }
