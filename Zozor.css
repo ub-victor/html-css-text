@@ -296,5 +296,5 @@ img#infobulle {
 }
 
 div#article-section {
-  
+  flex-direction: column;
 }
