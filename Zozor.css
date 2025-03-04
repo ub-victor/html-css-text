@@ -290,15 +290,16 @@ div#amis > ul > li > a::before {
   }
 }
 
-section#banner,
-img#infobulle {
-  display: none;
-}
+  section#banner,
+  img#infobulle {
+    display: none;
+  }
 
-div#article-section {
-  /* This line sets the flex container's main axis to be vertical, 
-    so the flex items will be arranged in a column. */
-  flex-direction: column;
-}
+  div#article-section {
+    /* This line sets the flex container's main axis to be vertical, 
+      so the flex items will be arranged in a column. */
+    flex-direction: column;
+  }
 
+  
 }
