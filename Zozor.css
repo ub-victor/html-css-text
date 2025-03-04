@@ -282,6 +282,7 @@ div#amis > ul > li > a::before {
     /* Adds margin to the image: 0 on top and bottom, 1rem on left and right */
     margin: 0 1rem;
   }
+}
 
 
 @media (max-width: 767.98px){
@@ -301,5 +302,5 @@ div#amis > ul > li > a::before {
     flex-direction: column;
   }
 
-  
+
 }
