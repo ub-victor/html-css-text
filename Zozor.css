@@ -325,7 +325,7 @@ div#amis > ul > li > a::before {
 
    footer{
     flex-direction: column;
-    
+    align-items: center;
    }
 }
 
