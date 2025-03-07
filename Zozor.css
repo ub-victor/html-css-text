@@ -331,6 +331,10 @@ div#amis > ul > li > a::before {
     margin-right: -0.5rem;
    }
 
+   footer h2 {
+    text-align: center;
+   }
+
    
 
 }
