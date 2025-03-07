@@ -346,7 +346,11 @@ div#amis > ul > li > a::before {
     padding-bottom: 1rem;
    }
 
-   
+   footer > div > p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0;
+   }
 
 }
 
