@@ -352,5 +352,9 @@ div#amis > ul > li > a::before {
     margin-top: 0;
    }
 
+   footer > div:not(:last-child){
+    border-radius: 1px solid #89201d
+   }
+
 }
 
