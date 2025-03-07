@@ -339,8 +339,14 @@ div#amis > ul > li > a::before {
     width: 100%;
     display: flex;
     flex-direction: column;
-
    }
+
+   footer > div ul {
+    margin: auto;
+    padding-bottom: 1rem;
+   }
+
+   
 
 }
 
