@@ -319,7 +319,10 @@ div#amis > ul > li > a::before {
   }
 
   aside > ul {
-    
+    padding-top: 1rem;
+    clear: right;
   }
+
+  
 }
 
