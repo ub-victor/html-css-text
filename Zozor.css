@@ -314,6 +314,12 @@ div#amis > ul > li > a::before {
     margin-bottom: 1rem;
   }
 
-  
+  aside > h2 {
+    margin-bottom: 1.2rem;
+  }
+
+  aside > ul {
+    
+  }
 }
 
