@@ -289,7 +289,7 @@ div#amis > ul > li > a::before {
   This media query applies styles for devices with a maximum width of 767.98px.
   Typically, this is used for targeting mobile phones.
 */
-@media (max-width: 767.98px){
+@media (max-width: 767.98px){ 
   header > nav > ul {
     display: block;
   }
@@ -304,6 +304,11 @@ div#amis > ul > li > a::before {
       so the flex items will be arranged in a column. */
     flex-direction: column;
   }
+  article {
+    margin-right: 0;
+  }
+
+  
 
 }
 
