@@ -290,7 +290,7 @@ div#amis > ul > li > a::before {
   Typically, this is used for targeting mobile phones.
 */
 @media (max-width: 767.98px){ 
-  header > nav > ul {
+  header > nav > ul > li {
     display: block;
   }
 
