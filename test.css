@@ -62,7 +62,7 @@ table{
     /*text-align: left; /*Alignement du texte à gauche*/
 }
 
-td /*Toute les cellules des tableaux...*/
+td, th /*Toute les cellules des tableaux...*/
 {
     border: 1px solid black; /*...sont encadrées par une bordure noire de 1 pixel*/
     padding: 5px; /*...et ont un espacement de 5 pixels entre le texte et la bordure*/
