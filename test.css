@@ -50,4 +50,22 @@ bottom: 0px;
 */
 
 /*next time we will start with Pratical work (TP) */
-/*it is a great progress on it
+/*it is a great progress on it*/
+
+/*Study tables*/
+
+table{
+    border-collapse: collapse; /*Les bordures des cellules sont fusionnées*/
+    /*width: 100%; /*La table occupe toute la largeur de son conteneur*/
+    /*margin: 20px 0; /*Un espacement de 20 pixels en haut et en bas*/
+    /*font-size: 18px; /*Taille de police de 18 pixels*/
+    /*text-align: left; /*Alignement du texte à gauche*/
+}
+
+td /*Toute les cellules des tableaux...*/
+{
+    border: 1px solid black; /*...sont encadrées par une bordure noire de 1 pixel*/
+    padding: 5px; /*...et ont un espacement de 5 pixels entre le texte et la bordure*/
+    text-align: center; /*...et le texte est centré dans chaque cellule*/
+}
+
