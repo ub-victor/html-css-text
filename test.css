@@ -72,3 +72,6 @@ td, th /*Toute les cellules des tableaux...*/
 input{
     margin: 2px;
 }
+:required{
+    background-color: burlywood;
+}
