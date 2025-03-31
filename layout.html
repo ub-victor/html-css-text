@@ -282,6 +282,9 @@
                         <p>U can even input the url, telephone number as type tel..</p>
                     </p>
                     <h3>Les listes déroulantes</h3>
+                    <p>Si vous voulez qu'une option soit sélectionnée par défaut, utilisez cette fois l'attribut selected :
+                        option value="canada" selected>Canada /option
+                    </p>
                     <p>
                         <label for="pays">Dans quel pays habitez-vous ?</label><br />
                         <select name="pays" id="pays">
@@ -295,8 +298,28 @@
                             <option value="chine">Chine</option>
                             <option value="japon">Japon</option>
                         </select>
-                        <p></p>
+                        <p>Vous pouvez aussi grouper vos options avec la balise optgroup> /optgroup>. Dans notre exemple, pourquoi ne pas
+                            séparer les pays en fonction de leur continent ?</p>
                     </p>
+                    <p>
+                        <label for="pays">Dans quel pays habitez-vous ?</label><br />
+                        <select name="pays" id="pays">
+                        <optgroup label="Europe">
+                        <option value="france">France</option>
+                        <option value="espagne">Espagne</option>
+                        <option value="italie">Italie</option>
+                        <option value="royaume-uni">Royaume-Uni</option>
+                        </optgroup>
+                        <optgroup label="Amérique">
+                        <option value="canada">Canada</option>
+                        <option value="etats-unis">Etats-Unis</option>
+                        </optgroup>
+                        <optgroup label="Asie">
+                        <option value="chine">Chine</option>
+                        <option value="japon">Japon</option>
+                        </optgroup>
+                        </select>
+                        </p>
                 </form>
             
 
