@@ -333,7 +333,7 @@
                     <fieldset>
                         <legend>Vos coordonnées</legend> <!-- Titre du fieldset -->
                         <label for="nom">Quel est votre nom ?</label>
-                        <input type="text" name="nom" id="nom" autofocus/><!--Sélectionner automatiquement un champ
+                        <input type="text" name="nom" id="nom" autofocus required /><!--Sélectionner automatiquement un champ
                         Vous pouvez placer automatiquement le curseur dans l'un des champs de votre formulaire avec l'attribut autofocus. Dès que
                         le visiteur chargera la page, le curseur se placera dans ce champ.
                         Par exemple, pour que le curseur soit par défaut dans le champ du nom : -->
@@ -363,6 +363,22 @@
                     rows="4"></textarea>
                     </p>
                 </fieldset>
+                <div>
+                    <h5>Le bouton d'wnvoi</h5>
+                    <p>frontend backend webdev webform htmlcss javascript php formvalidation</p>
+                    <nav>
+                        <ol>
+                            <li>type="submit" : le principal bouton d'envoi de formulaire. C'est celui que vous utiliserez le plus souvent. Le visiteur
+                                sera conduit à la page indiquée dans l'attribut action du formulaire.</li>
+                            <li>type="reset" : remise à zéro du formulaire.</li>
+                            <li>type="image" : équivalent du bouton submit, présenté cette fois sous forme d'image. Rajoutez l'attribut src pour
+                                indiquer l'URL de l'image.</li>
+                            <li>type="button" : bouton générique, qui n'aura (par défaut) aucun effet. En général, ce bouton est géré en JavaScript
+                                pour exécuter des actions sur la page. Nous ne l'utiliserons pas ici</li>
+                        </ol>
+                    </nav>
+            
+                </div>
                 <input type="submit" value="Envoyer" />
                 </form>
 
