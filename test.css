@@ -69,3 +69,6 @@ td, th /*Toute les cellules des tableaux...*/
     text-align: center; /*...et le texte est centré dans chaque cellule*/
 }
 
+input{
+    margin: 2px;
+}
