@@ -390,6 +390,20 @@
             <p>En pratique, c'est un peu plus compliqué que cela.
             Si vous testez ce code…vous ne verrez rien ! En effet, le navigateur va seulement télécharger les informations générales sur le
             fichier (on parle de métadonnées) mais il ne se passera rien de particulier.</p>
+            <h6>Vous pouvez compléter la balise des attributs suivants :</h6>
+            <ol><li>controls : pour ajouter les boutons « Lecture », « Pause » et la barre de défilement. Cela peut sembler indispensable,
+            et vous vous demandez peut-être pourquoi cela n'y figure pas par défaut, mais certains sites web préfèrent créer euxmêmes leurs propres boutons et commander la lecture avec du JavaScript.</li>
+            <li>width : pour modifier la largeur de l'outil de lecture audio.</li>
+            <li>loop : la musique sera jouée en boucle.</li>
+            <li>autoplay : la musique sera jouée dès le chargement de la page. Évitez d'en abuser, c'est en général irritant d'arriver sur
+            un site qui joue de la musique tout seul !</li>
+            <li>preload : indique si la musique peut être préchargée dès le chargement de la page ou non. Cet attribut peut prendre les
+            valeurs :</li>
+            <li>auto (par défaut) : le navigateur décide s'il doit précharger toute la musique, uniquement les métadonnées ou
+            rien du tout.</li>
+            <li>metadata : charge uniquement les métadonnées (durée, etc.)</li>
+            <li>none : pas de préchargement. Utile si vous ne voulez pas gaspiller de bande passante sur votre site.</li>
+</ol>
 
 
         </div>        
