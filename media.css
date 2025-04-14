@@ -5,3 +5,11 @@ p{
 }
 
 /*Nouvelles regles si la fenetre fait au plus 1024px de large */
+
+@media screen and (max-width: 1024px){
+    p{
+        color: red;
+        background-color: black;
+        font-size: 1.2em;
+    }
+}
