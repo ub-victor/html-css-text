@@ -1,0 +1,7 @@
+/* Paragraphes en bleu par defaut */
+
+p{
+    color: blue;
+}
+
+/*Nouvelles regles si la fenetre fait au plus 1024px de large */
